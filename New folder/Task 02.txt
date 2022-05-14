@@ -1,0 +1,30 @@
+
+===============General Analysis (GA)===============
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (277): error V1003: The macro 'JSON_HEDLEY_MSVC_VERSION_CHECK' is a dangerous expression. The parameters 'major', 'minor' must be surrounded by parentheses.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (279): error V1003: The macro 'JSON_HEDLEY_MSVC_VERSION_CHECK' is a dangerous expression. The parameters 'major', 'minor' must be surrounded by parentheses.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (281): error V1003: The macro 'JSON_HEDLEY_MSVC_VERSION_CHECK' is a dangerous expression. The parameter 'major' must be surrounded by parentheses.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (24049): error V1037: Two or more case-branches perform the same actions. Check lines: 24049, 24071
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (6171): error V524: It is odd that the body of 'end_array' function is fully equivalent to the body of 'end_object' function.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (9234): error V547: Expression 'mant <= 1024' is always true.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (17315): error V547: Expression 'byte < utf8d.size()' is always true. The value range of unsigned char type: [0, 255].
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (15234): error V550: An odd precise comparison. It's probably better to use a comparison with defined precision: fabs(A - B) < Epsilon.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (8447): error V553: The length of 'binary_reader' class's declaration is more than 2000 lines long. You should consider refactoring the code.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (17716): error V553: The length of 'basic_json' class's declaration is more than 2000 lines long. You should consider refactoring the code.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (26187): error V565: An empty exception handler. Silent suppression of exceptions can hide the presence of bugs in source code during testing.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (13057): error V659: Declarations of functions with 'get_unchecked' name differ in the 'const' keyword only, but the bodies of these functions have different composition. This is suspicious and can possibly be an error. Check lines: 12933, 13057.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (17445): error V659: Declarations of functions with 'operator []' name differ in the 'const' keyword only, but the bodies of these functions have different composition. This is suspicious and can possibly be an error. Check lines: 17440, 17445.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (17716): error V690: The 'basic_json' class implements a move constructor, but lacks the move assignment operator. It is dangerous to use such a class.
+
+===============Optimization (OP)===============
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (6213): error V807: Decreased performance. Consider creating a pointer to avoid using the 'ref_stack.back()' expression repeatedly.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (6363): error V807: Decreased performance. Consider creating a pointer to avoid using the 'ref_stack.back()' expression repeatedly.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (6500): error V807: Decreased performance. Consider creating a pointer to avoid using the 'ref_stack.back()' expression repeatedly.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (15904): error V813: Decreased performance. The 'M_minus', 'w', 'M_plus' arguments should probably be rendered as constant references.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (16145): error V813: Decreased performance. The 'm_minus', 'v', 'm_plus' arguments should probably be rendered as constant references.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (4947): error V833: Passing the const-qualified object 'arr' to the 'std::move' function disables move semantics.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (10670): error V833: Passing the const-qualified object 'number_string' to the 'std::move' function disables move semantics.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (24398): error V801: Decreased performance. It is better to redefine the second function argument as a reference. Consider replacing 'const .. cb' with 'const .. &cb'.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (24437): error V801: Decreased performance. It is better to redefine the third function argument as a reference. Consider replacing 'const .. cb' with 'const .. &cb'.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (24449): error V801: Decreased performance. It is better to redefine the second function argument as a reference. Consider replacing 'const .. cb' with 'const .. &cb'.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (5385): error V807: Decreased performance. Consider creating a reference to avoid using the 'j.get_binary()' expression repeatedly.
+C:\Users\youse\Desktop\SW_tasks_shared\Task 02\nlohmann\json.hpp (4075): error V826: Consider replacing the 'l' std::forward_list with std::vector. Contiguous placement of elements in memory can be more efficient.
