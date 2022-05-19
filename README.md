@@ -45,31 +45,34 @@ This class contains the memory of the API as a HashMap and an addToMemory functi
 * This class tests each function of class API
 
 ## Documentation
-
+* See [Documentation folder](https://github.com/Yousef-Rabia/Task02-Topology-API/tree/master/Documentation) Created by Doxygen.
+* If you want a PDF Documentation please click [Here](https://drive.google.com/file/d/1CPBmBkBu1Byr7PXc22M7lgW9iJaZJTqw/view?usp=sharing)
 ## Analysis
+* See [Analysis folder](https://github.com/Yousef-Rabia/Task02-Topology-API/tree/master/Code%20analysis%20with%20PVS-Studio) Created by PVS-Studio.
+
 
 ##  Screenshots
 #### Interface
-<img src="screenshots/1.png" height="300" width="700">
+<img src="screenshots/1.png" >
 
 #### Read JSON file 
-<img src="screenshots/read.png" alt="2" height="600" width="700">
+<img src="screenshots/read.png" >
 
 #### Write JSON
-<img src="screenshots/write test.png" alt="3" height="300" width="700">
+<img src="screenshots/write test.png">
 
 #### Query Topologies
-<img src="screenshots/3.png" height="600" width="700">
+<img src="screenshots/3.png" >
 
 #### Delete a topology 
-<img src="screenshots/4.png"  height="600" width="700">
+<img src="screenshots/4.png" >
 
 #### Query devices in a topology
-<img src="screenshots/5.png"  height="800" width="700">
+<img src="screenshots/5.png" >
 
 #### Query devices with netlist node
-<img src="screenshots/6.png"  height="800" width="700">
+<img src="screenshots/6.png">
  
 
 #### Testing
-<img src="screenshots/test.png"  height="600" width="700">
+<img src="screenshots/test.png" >
