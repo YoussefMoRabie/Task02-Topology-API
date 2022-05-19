@@ -10,7 +10,19 @@ void ApplicationManager::Execute()
 {
 	
 		cout << "\t \t \t \t \t \t \tTopology API" << endl;
-
+		cout << "System Options: " << endl;
+		cout << "\t \t 1- TEST" << endl;
+		cout << "\t \t 2- RUN" << endl;
+		cout << "What do you want to do? : ";
+		cin >> Option;
+		while (Option!=1&&Option!=2)
+		{
+			cout << "Please enter a valid number\nWhat do you want to do? : ";
+			cin >> Option;
+		}
+		if (Option == 1)
+			test.Run_Tests();
+		else
 		while (1)
 		{
 			cout << "System Options: " << endl;
@@ -45,6 +57,8 @@ void ApplicationManager::Execute()
 				test2->queryDevicesWithNetlistNode(user_option, user_option2);
 				break;
 			case 7:
+				return;
+			default:
 				return;
 
 			}

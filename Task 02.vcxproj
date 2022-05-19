@@ -142,6 +142,7 @@
     <ClCompile Include="API.cpp" />
     <ClCompile Include="ApplicationManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Testing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="topology.json" />
@@ -149,6 +150,7 @@
   <ItemGroup>
     <ClInclude Include="API.h" />
     <ClInclude Include="ApplicationManager.h" />
+    <ClInclude Include="Testing.h" />
     <ClInclude Include="Topology.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
